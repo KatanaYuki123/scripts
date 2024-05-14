@@ -21,7 +21,6 @@ cp device/qcom/sepolicy_vndr/legacy-um/qva/vendor/bengal/legacy-ims/hal_rcsservi
 
 # build rom
 source build/envsetup.sh
-export SELINUX_IGNORE_NEVERALLOWS=true
 lunch voltage_spes-ap1a-user
 m installclean
 mka bacon
