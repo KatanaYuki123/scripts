@@ -19,6 +19,9 @@ echo -e "${color}Switch back to legacy imsrcsd sepolicy${end}"
 rm -rf device/qcom/sepolicy_vndr/legacy-um/qva/vendor/bengal/ims/imsservice.te
 cp device/qcom/sepolicy_vndr/legacy-um/qva/vendor/bengal/legacy-ims/hal_rcsservice.te device/qcom/sepolicy_vndr/legacy-um/qva/vendor/bengal/ims/hal_rcsservice.te
 
+# nuke lineage stuff
+rm -rf hardware/lineage/interfaces
+
 # build rom
 source build/envsetup.sh
 lunch bliss_spes-ap1a-user
