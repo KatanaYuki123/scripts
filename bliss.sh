@@ -26,4 +26,4 @@ m installclean
 blissify -g spes
 
 # crave build command
-# crave run --no-patch "rm -rf voltage.sh && wget https://raw.githubusercontent.com/KatanaYuki123/scripts/main/voltage.sh && chmod +x voltage.sh && bash voltage.sh"
+# crave run --no-patch "rm -rf bliss.sh && wget https://raw.githubusercontent.com/KatanaYuki123/scripts/main/bliss.sh && chmod +x bliss.sh && bash bliss.sh"
