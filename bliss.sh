@@ -21,7 +21,7 @@ cp device/qcom/sepolicy_vndr/legacy-um/qva/vendor/bengal/legacy-ims/hal_rcsservi
 
 # build rom
 source build/envsetup.sh
-lunch voltage_spes-ap1a-user
+lunch bliss_spes-ap1a-user
 m installclean
 blissify -g spes
 
