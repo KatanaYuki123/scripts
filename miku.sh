@@ -26,4 +26,4 @@ m installclean
 make diva
 
 # crave build command
-# crave run --no-patch "rm -rf voltage.sh && wget https://raw.githubusercontent.com/KatanaYuki123/scripts/main/voltage.sh && chmod +x voltage.sh && bash voltage.sh"
+# crave run --no-patch "rm -rf miku.sh && wget https://raw.githubusercontent.com/KatanaYuki123/scripts/main/miku.sh && chmod +x miku.sh && bash miku.sh"
