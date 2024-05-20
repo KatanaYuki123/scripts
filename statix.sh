@@ -23,7 +23,7 @@ cp device/qcom/sepolicy_vndr/legacy-um/qva/vendor/bengal/legacy-ims/hal_rcsservi
 source build/envsetup.sh
 lunch statix_spes-ap1a-userdebug
 m installclean
-mka bacon
+brunch statix_spes-ap1a-userdebug
 
 # crave build command
 # crave run --no-patch "rm -rf statix.sh && wget https://raw.githubusercontent.com/KatanaYuki123/scripts/main/statix.sh && chmod +x statix.sh && bash statix.sh"
